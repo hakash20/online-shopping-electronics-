@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+body{
+text-align:center;}
+#textarea {
+width: 220px;
+height: 40px;
+Color:grey;
+font-style:italic;
+
+}
+</style>
+</head>
+
+<body background="inc.jpg">
+<h1>FILL YOUR FORM HERE</h1>
+<form method="post" action="php/reg.php">
+<input type="text" name="firstname" placeholder="Last name" size="22" id="textarea"><br><br>
+ 
+  <input type="text" name="lastname" placeholder="FirstName" size="22" id="textarea">
+  <br><br>
+   <input type="date" name="dob" placeholder="DD/MM/YYYY" size="22" id="textarea">
+  <br><br>
+     <input type="radio" name="gender" value="male"  checked> Male
+  <input type="radio" name="gender" value="female"> Female
+  <br><br>
+   <input type="text" name="email" placeholder="Email id" size="22" id="textarea">
+  <br><br>
+ <input type="password" name="password" placeholder="New Password" size="22" id="textarea" >
+  <br><br>
+<input type="password" name="conpassword" placeholder="Reconfirm Password" size="22" id="textarea" >
+  <br><br>
+  <input type="submit" value="register" size="20">
+  <br><br>
+  
+</form> 
+</div>
+</body>
+</html>
